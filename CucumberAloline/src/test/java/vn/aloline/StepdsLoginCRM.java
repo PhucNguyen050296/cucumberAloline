@@ -1,20 +1,11 @@
-package aloline;
+package vn.aloline;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class StepsLoginCRM {
-    @And("I click the Login button")
-    public void iClickTheLoginButton() {
-    }
-
-    @And("I should see the {string} menu")
-    public void iShouldSeeTheMenu(String arg0) {
-
-    }
-
+public class StepdsLoginCRM {
     @Given("I am on the login page")
     public void iAmOnTheLoginPage() {
     }
@@ -23,7 +14,15 @@ public class StepsLoginCRM {
     public void iEnterMyUsernameAndPassword() {
     }
 
+    @And("I click the Login button")
+    public void iClickTheLoginButton() {
+    }
+
     @Then("I should be taken to the Dashboard page")
     public void iShouldBeTakenToTheDashboardPage() {
+    }
+
+    @And("I should see the {string} menu")
+    public void iShouldSeeTheMenu(String arg0) {
     }
 }
